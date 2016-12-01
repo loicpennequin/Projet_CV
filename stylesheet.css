@@ -1,0 +1,89 @@
+body {
+	background: linear-gradient(to bottom right, LightSteelBlue, #660066);
+}
+
+.section {
+	border: solid 3px #4C0094;
+}
+
+.maintitle {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #dbe4f0;
+	width: 800px;
+}
+
+.title {
+	background-color: #dbe4f0;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+	width: 800px;
+}
+
+.title-text {
+	font-size: 25px;
+	color: DarkSlateBlue;
+	text-shadow: 2px 2px black;
+}
+
+#menu {
+	text-align: center;
+}
+
+.button {
+	Background-color: LightBlue;
+	border: solid 3px #4C0094; 
+	border-radius: 5px;
+	color: #372f6a;
+	display: inline-block;
+	margin: 0px 15px 20px 0px;
+	opacity: 0.5;
+	padding : 0px 5px 0px 5px;	
+}
+
+.button:hover {
+	box-shadow: 0px 0px 5px white;
+	opacity: 1.0;
+	color: white;
+}
+
+#photo {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: solid 2px DarkSlateBlue;
+}
+
+.infos {
+	display: inline-block;
+	font-size: 20px;
+	color: #40367c;
+}
+
+.infotext {
+	color: #40367c;
+}
+
+.field {
+	background-color: #dbe4f0;
+	width: 1024px;
+	padding: 10px;
+	border: solid 3px #4C0094;
+	margin: 0 auto;
+}
+
+.infos ul {
+	margin: 0px;
+}
+
+#exp {
+	margin: 0px 0px 10px 50px;
+}
+
+dt {
+	font-weight: bolder;
+}
+
