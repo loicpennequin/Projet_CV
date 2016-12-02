@@ -1,5 +1,10 @@
 body {
-	background: linear-gradient(to bottom right, #ADC3E6, #300b53);
+	background: linear-gradient(to bottom right, #E2EAF6, #4F4F5E);
+}
+
+
+li, p, dt, dd {
+	font-family: 'Vollkorn', serif;
 }
 
 #top-left-corner {
@@ -29,9 +34,9 @@ body {
 }
 
 .section {
-	border: solid 3px #4C0094;
+	border: solid 3px #8669B3;
 	border-radius: 20%;
-	background-color: #dbe4f0;
+	background-color: #F0F7BE;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -76,6 +81,8 @@ h1 {
 	Background-color: LightBlue;
 	border: solid 3px #4C0094;
 	border-radius: 5px;
+	font-family: 'Proza Libre', sans-serif;
+	font-weight: bold;
 	padding : 10px 5px 10px 5px;
 	margin: 0px 15px 20px 0px;
 	opacity: 0.5;
@@ -85,13 +92,14 @@ h1 {
 	animation-name: button-hover;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
-	}
+}
 
 @keyframes button-hover {
 	from	{opacity: 0.5 ; color: #372f6a;}
 	to		{opacity: 1.0 ; color: white; box-shadow: 0px 0px 5px; white;}
 }
- 	
+
+
 #photo {
 	display: inline-block;
 	height: 150px;
@@ -118,7 +126,7 @@ p {
 	border-radius: 10px;
 	width: 1024px;
 	padding: 10px;
-	border: solid 3px #4C0094;
+	border: solid 3px #8669B3;
 	margin: 0 auto;
 }
 
@@ -152,14 +160,33 @@ dt, .colonne33 p, .colonne50 p  {
 
 #logos {
 	text-align: center;
+	margin-top: 20px;
 }
 
 .logo {
-	height: 100px;
-	width: 100px;
+	
+	height: 70px;
+	width: 70px;
 	display: inline-block;
 	margin: 0px 30px;
 }
 
+@keyframes logo-hover {
+	from 	{height: 70px; width: 70px}
+	to 		{height: 100px; width: 100px; box-shadow: 0px 0px 10px white;}
+}
 
+.logo:hover {
+	animation-name : logo-hover;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
 
+#contact {
+	width: 110px;
+	padding: O;
+	margin-bottom: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
