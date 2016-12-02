@@ -33,6 +33,32 @@ li, p, dt, dd {
 	z-index: -1;
 }
 
+#bottom-left-corner {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 241px 0 0 241px;
+	border-color: transparent transparent transparent #000000;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	opacity: 0.2;
+	z-index: -1;
+}
+
+#bottom-right-corner {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 241px 241px;
+	border-color: transparent transparent #000000 transparent;
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	opacity: 0.2;
+	z-index: -1;
+}
+
 .section {
 	border: solid 3px #8669B3;
 	border-radius: 20%;
