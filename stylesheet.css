@@ -1,25 +1,22 @@
 body {
-	background: linear-gradient(to bottom right, LightSteelBlue, #660066);
+	background: linear-gradient(to bottom right, LightSteelBlue, #460066);
 }
 
 .section {
 	border: solid 3px #4C0094;
+	border-radius: 20%;
+	background-color: #dbe4f0;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .maintitle {
-	margin: 0 auto;
-	margin-bottom: 20px;
-	text-align: center;
-	background-color: #dbe4f0;
-	width: 800px;
+	width: 900px;
 }
 
 .title {
-	background-color: #dbe4f0;
-	margin: 0 auto;
-	margin-bottom: 20px;
 	margin-top: 40px;
-	text-align: center;
 	width: 800px;
 }
 
@@ -34,21 +31,23 @@ body {
 }
 
 .button {
-	Background-color: LightBlue;
-	border: solid 3px #4C0094; 
-	border-radius: 5px;
-	color: #372f6a;
 	display: inline-block;
+}
+.button a {
+	color: #372f6a;
+	text-decoration: none;
+	Background-color: LightBlue;
+	border: solid 3px #4C0094;
+	border-radius: 5px;
+	padding : 10px 5px 10px 5px;
 	margin: 0px 15px 20px 0px;
 	opacity: 0.5;
-	padding : 0px 5px 0px 5px;	
 }
-
-.button:hover {
+.button a:hover {
+	color: white;
 	box-shadow: 0px 0px 5px white;
 	opacity: 1.0;
-	color: white;
-}
+	}
 
 #photo {
 	display: inline-block;
@@ -86,4 +85,3 @@ body {
 dt {
 	font-weight: bolder;
 }
-
